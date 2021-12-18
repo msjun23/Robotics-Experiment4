@@ -1,5 +1,5 @@
 ﻿  CommWork.cpp
-C:\Users\MSJUN-MSI\Documents\RobotExp_4\RobotExp_4\CommWork.cpp(57,43): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\MSJUN-MSI\Documents\RobotExp_4\RobotExp_4\CommWork.cpp(58,44): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\MSJUN-MSI\Documents\RobotExp_4\RobotExp_4\CommWork.cpp(59,42): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  RobotExp_4.vcxproj -> C:\Users\MSJUN-MSI\Documents\RobotExp_4\Debug\RobotExp_4.exe
+d:\robotexp_4\robotexp_4\robotexp_4\commwork.cpp(59): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\robotexp_4\robotexp_4\robotexp_4\commwork.cpp(60): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\robotexp_4\robotexp_4\robotexp_4\commwork.cpp(61): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RobotExp_4.vcxproj -> D:\RobotExp_4\RobotExp_4\Debug\RobotExp_4.exe

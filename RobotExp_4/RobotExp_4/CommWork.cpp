@@ -3,6 +3,8 @@
 #include "CommWork.h"
 #include "SystemMemory.h"
 
+#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
+
 CCommWork::CCommWork(std::string name)
 	:CWorkBase(name)
 {
