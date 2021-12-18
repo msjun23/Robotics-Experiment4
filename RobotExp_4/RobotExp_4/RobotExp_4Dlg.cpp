@@ -14,6 +14,7 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+#define _CRT_SECURE_NO_WARNINGS
 
 
 // 응용 프로그램 정보에 사용되는 CAboutDlg 대화 상자입니다.
@@ -230,8 +231,19 @@ void CRobotExp_4Dlg::SolveForwardKinematics(double dAngle, double dAngle2, doubl
 
 void CRobotExp_4Dlg::SolveInverseKinematics(double dX, double dY, double dZ, double* pdAngle)
 {
-	pdAngle[0] = 0;
-	pdAngle[1] = 0;
+	double link1 = 0.25;
+	double link2 = 1.0;
+	double link3 = 0.5;
+
+	double c2 = (dX * dX + dY * dY - (link2*link2 + link3 * link3)) / (2 * link2 * link3);
+	double s2 = sqrt(1 - c2 * c2);
+
+	double c1 = (((link2 + link3 * c2) * dX + (link3 * s2) * dY)) / (pow(link2 + link3 * c2, 2) + pow(link3*s2, 2));
+	double s1 = ((-(link3 * s2) * dX + (link2 + link3 * c2) * dY)) / (pow(link2 + link3 * c2, 2) + pow(link3*s2, 2));
+	
+	pdAngle[0] = atan2(s1, c1);
+	pdAngle[1] = atan2(s2, c2);
+
 }
 
 

@@ -216,7 +216,7 @@ void PControl()
 		theta_err[i] = theta_ref[i] - theta_cur[i];					// error = reference - current
 	}
 
-	double Kp = 0.1;
+	double Kp = 0.5;
 	double vel_ref[MAX_JOINT_NUM];									// Velocity reference for control angle
 	for (int i = 1; i < MAX_JOINT_NUM; i++) {
 		vel_ref[i] = Kp * theta_err[i];								// P Contorller

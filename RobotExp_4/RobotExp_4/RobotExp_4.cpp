@@ -17,6 +17,7 @@
 
 #include <thread>
 #include <chrono>
+#include "Comm.h" // 통신 라이브러리 추가
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
