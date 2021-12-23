@@ -19,5 +19,5 @@ Author:
 ![ode](/results/ode.gif)<br>
 
 ## Motor Control
+<img src="/results/motor_capture.gif" width="50%" height="50%"/><br>
 <img src="/results/motor_real.gif" width="50%" height="50%"/>
-<img src="/results/motor_capture.gif" width="50%" height="50%"/>
