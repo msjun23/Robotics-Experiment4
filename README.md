@@ -1,7 +1,7 @@
 # Robotics-Experiment4
 Kwangwoon University, Seoul, South Korea
 
-Term project for Robotics Experiment(Second semester, 2021.)
+Term project for Robotics Experiment4(Second semester, 2021.)
 
 PDF, lecture material, base code is own Kwangwoon Univ.
 
@@ -15,9 +15,9 @@ Author:
 >> Motor Control(PID gain tunning)
 ---
 
-## ODE Simulation
+# ODE Simulation
 ![ode](/results/ode.gif)<br>
 
-## Motor Control
+# Motor Control
 <img src="/results/motor_capture.gif"/><br>
 <img src="/results/motor_real.gif" width="50%" height="50%"/>
